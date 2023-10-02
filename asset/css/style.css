@@ -207,3 +207,83 @@ main .hero {
   margin-left: 56px;
   margin-top: 28px;
 }
+/* =======================================Courses================== */
+.Courses {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.Courses h2 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26316; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.Courses .row {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.Courses .row .subtitle {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.667;
+  max-width: 458px; /* 166.667% */
+}
+.Courses .row img {
+  margin-top: -55px;
+}
+.Courses ul {
+  display: flex;
+  margin-top: 55px;
+  justify-content: space-between;
+}
+.Courses ul li {
+  width: 370px;
+  height: 466px;
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+}
+.Courses ul li .row-courses1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.Courses ul li .row-courses1 h3 {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.667; /* 166.667% */
+}
+.Courses ul li .subtitle-courses {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85714; /* 185.714% */
+  max-width: 326px;
+}
+.Courses ul li .row-courses2 {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Courses ul li .row-courses2 h3 {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.667; /* 166.667% */
+}
+.Courses ul li .row-courses2 .action a:hover {
+  background: #ffb900;
+  color: #fff;
+}
