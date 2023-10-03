@@ -405,3 +405,87 @@ main .hero {
   width: 137px;
   height: 50px;
 }
+/* ===============Our-blog================== */
+.Our-blog {
+  background: #fffcf4;
+  padding: 96px 0;
+}
+
+.Our-blog .blog h2 {
+  color: #130606;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26316; /* 126.316% */
+  letter-spacing: -0.76px;
+  text-align: center;
+}
+.Our-blog .blog .subtile1 {
+  color: #696262;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  max-width: 448px;
+  margin-left: 361px;
+  height: 56px;
+  text-align: center;
+}
+.Our-blog ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.Our-blog ul li {
+  max-width: 370px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  min-height: 467px;
+}
+.Our-blog ul li .info {
+  margin: 20px 0 28px 20px;
+}
+.Our-blog ul li .info .subtile {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85714; /* 185.714% */
+  position: relative;
+  margin-left: 10px;
+}
+.Our-blog ul li .info .subtile::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #ffb900;
+  border-radius: 50%;
+
+  top: 8px;
+  left: -12px;
+}
+.Our-blog ul li .info hr {
+  max-width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+  margin-right: 190px;
+}
+.Our-blog ul li .info h3 {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  max-width: 330px;
+  margin-top: 12px;
+}
+.Our-blog ul li .info .action {
+  margin-top: 12px;
+}
+.Our-blog ul li .info .action a:hover {
+  background: #ffb900;
+}
