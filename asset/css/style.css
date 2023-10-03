@@ -287,3 +287,45 @@ main .hero {
   background: #ffb900;
   color: #fff;
 }
+/* =======================Student===================== */
+.Student {
+  background: #2e2100;
+  padding: 96px 0;
+}
+.Student .information {
+  display: flex;
+  justify-content: space-between;
+}
+.Student .information .people h3 {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.41667;
+  padding-top: 18px; /* 141.667% */
+  min-width: 130px;
+}
+.Student .information .people p {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85714; /* 185.714% */
+  padding-top: 4px;
+  min-width: 160px;
+}
+.Student .information .people .wait {
+  margin-top: 28px;
+}
+.Student .information .info {
+  max-width: 770px;
+  /* margin-left: 271px; */
+}
+.Student .information .info .subtile {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.53846; /* 153.846% */
+}
