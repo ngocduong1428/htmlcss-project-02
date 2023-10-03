@@ -477,7 +477,7 @@ main .hero {
 .Our-blog ul li .info h3 {
   color: #171100;
   font-family: Poppins;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   line-height: 1.75; /* 175% */
   max-width: 330px;
@@ -488,4 +488,80 @@ main .hero {
 }
 .Our-blog ul li .info .action a:hover {
   background: #ffb900;
+}
+.Our-blog .last {
+  margin: 38px;
+  text-align: center;
+}
+/* ===========================Footer============================= */
+.footer {
+  padding: 96px 0 28px 0;
+  background: #2e2100;
+  min-height: 428px;
+}
+.footer .footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-main .connect .subtile {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.85714; /* 185.714% */
+  max-width: 267px;
+  margin-top: 18px;
+}
+.footer-main .connect .icon {
+  max-width: 111px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-main h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  position: relative;
+}
+.footer-main h2::after {
+  display: inline-block;
+  content: "";
+  width: 130px;
+  height: 1px;
+  background: #59554b;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+}
+.footer-main ul {
+  margin-top: 43px;
+}
+.footer-main ul li {
+  margin-top: 12px;
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.875714; /* 185.714% */
+}
+.footer-main ul li strong {
+  color: white;
+}
+.footer hr {
+  margin-top: 32px;
+}
+.footer .note {
+  text-align: center;
+  margin-top: 28px;
+  color: #807d74;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.85714; /* 185.714% */
+  margin-left: -80px;
 }
